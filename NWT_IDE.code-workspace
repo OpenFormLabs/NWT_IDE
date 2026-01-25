@@ -1,0 +1,83 @@
+{
+	"folders": [
+		{
+			"name": "NWT IDE",
+			"path": "."
+		},
+		{
+			"name": "Source Code",
+			"path": "./src"
+		},
+		{
+			"name": "Configs",
+			"path": "./src/configs"
+		},
+		{
+			"name": "Scripts",
+			"path": "src/scripts"
+		},
+		{
+			"name": "Windows",
+			"path": "src/windows"
+		},
+		{
+			"name": "Addons",
+			"path": "./src/addons"
+		},
+		{
+			"name": "Templates",
+			"path": "./src/templates"
+		},
+		{
+			"name": "Tools",
+			"path": "./tools"
+		},
+		{
+			"name": "Documents",
+			"path": "./docs"
+		},
+		{
+			"name": "Pages",
+			"path": "./pages"
+		},
+		{
+			"name": "GitHub",
+			"path": "./.github"
+		}
+	],
+	"settings": {
+		"explorer.autoReveal": false,
+		"files.exclude": {
+			"**/*.uid": true,
+			"**/*.import": true,
+			"**/.mono": true
+		},
+		"terminal.integrated.env.linux": {
+			"PATH": "${workspaceFolder}/tools/linux:${env:PATH}",
+			"ROOT": "${workspaceFolder:NWT IDE}",
+			"SRC": "${workspaceFolder:Source Code}"
+		},
+		"terminal.integrated.env.windows": {
+			"PATH": "${workspaceFolder}\\tools\\windows;${env:PATH}",
+			"ROOT": "${workspaceFolder:NWT IDE}",
+			"SRC": "${workspaceFolder:Source Code}"
+		},
+		"terminal.integrated.env.osx": {
+			"PATH": "${workspaceFolder}/tools/macos:${env:PATH}",
+			"ROOT": "${workspaceFolder:NWT IDE}",
+			"SRC": "${workspaceFolder:Source Code}"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"geequlim.godot-tools",
+			"woberg.godot-dotnet-tools",
+			"lukegeneva.auto-collapse-explorer",
+			"MermaidChart.vscode-mermaid-chart",
+			"bierner.markdown-emoji"
+		],
+		"unwantedRecommendations": [
+			"jjkim.gdscript"
+		]
+	}
+}

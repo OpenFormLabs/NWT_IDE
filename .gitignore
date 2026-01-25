@@ -1,0 +1,49 @@
+# --- Workspace & Private ---
+docs/private/
+**/*.old-*
+.fake
+
+# --- VS Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# --- Godot 4 Core ---
+**/.godot/
+**/.import/
+**/.nomedia
+**/export.cfg
+**/export_presets.cfg
+*.tmp
+*.translation
+
+# --- C# / .NET / Mono ---
+**/bin/
+**/obj/
+**/.mono/
+**/mono_crash.*.json
+**/*.csproj.user
+**/Generated/
+
+# --- Compiled Binaries ---
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.pdb
+*.exp
+*.o
+*.obj
+*.vsix
+
+# --- Sensitive & OS ---
+*.env
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
